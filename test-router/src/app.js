@@ -1,6 +1,7 @@
-import { AppRouter } from "./router.js";
+import "./browser-router.js";
+// import { HashRouter } from "./router.js";
 
-window.addEventListener("DOMContentLoaded", () => {
-	AppRouter.addRoute("home", "static/home.html");
-	AppRouter.addRoute("about", "static/about.html");
-});
+// window.addEventListener("DOMContentLoaded", () => {
+// HashRouter.addRoute("home", "static/home.html");
+// HashRouter.addRoute("about", "static/about.html");
+// });
